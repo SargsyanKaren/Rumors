@@ -1,0 +1,16 @@
+.UsersItem input{
+    width: 10vw;
+}
+
+.editBut{
+    background-color: rgb(58,136,196);
+}
+.deleteBut{
+    background-color: rgb(205,89,114);
+}
+.okBut{
+    background-color: rgb(51,121,175); 
+}
+.closeBut{
+    background-color: rgb(91,145,103);
+}

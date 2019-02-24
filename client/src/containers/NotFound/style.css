@@ -1,0 +1,12 @@
+.NotFound{
+    width: 100vw;
+    height: 100vh;
+    background: var(--fon-color-linear);
+    display: flex;
+}
+.NotFound p{
+    margin: auto;
+    color: white;
+    font-size: 40px;    
+    font-weight: bold;
+}

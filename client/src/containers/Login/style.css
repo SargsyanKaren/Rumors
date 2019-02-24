@@ -1,0 +1,38 @@
+.Login{
+    background: var(--fon-color-linear);   
+}
+.loginForm{
+    width: 20vw;
+}
+.loginForm input{
+    padding: 10px;
+    border-radius: 3px;
+    font-size: 20px;
+    border: none;
+}
+.loginForm input[type="button"]{
+    background-color: rgb(15,69,151);
+    margin-top: 40px;
+}
+.loginForm input:disabled{
+    background-color: rgb(150,150,150);
+}
+.loginForm p{
+    font-size: 20px;
+    color: rgb(15,69,151);
+    font-family: Arial;
+    font-weight: bold;
+}
+input::placeholder{
+    color: rgba(39,211,172,.5);
+}
+
+.input-valid{
+    outline: 3px solid #7DE42D;
+}
+.input-invalid{
+    outline: 3px solid #E44843;
+}
+.input-default{
+    outline: none;
+}
